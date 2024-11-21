@@ -129,6 +129,11 @@
 
 # Список коммитов
 
+## 1d76f55
+- **Author:** Vladimir
+- **Date:** 2024-21-11
+- **Message:** add tests
+
 ## c9ee6d8
 - **Author:** Vladimir
 - **Date:** 2024-10-09
@@ -153,8 +158,3 @@
 - **Author:** smartiqa
 - **Date:** 2021-03-04
 - **Message:** L-03: Docs added
-
-## 8ba9aeb
-- **Author:** smartiqa
-- **Date:** 2021-03-04
-- **Message:** L-03: Circle and square added
