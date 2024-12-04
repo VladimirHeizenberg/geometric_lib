@@ -1,4 +1,5 @@
-![example workflow](https://github.com/VladimirHeizenberg/geometric_lib/actions/workflows/python-app.yml/badge.svg)
+![example workflow](https://github.com/VladimirHeizenberg/geometric_lib/actions/workflows/linting.yml/badge.svg)
+![example workflow](https://github.com/VladimirHeizenberg/geometric_lib/actions/workflows/test.yml/badge.svg)
 # Общая информация
 - Библиотека, позволяющая проводить геометрические расчёты.
 - Содержит файлы для расчётов:
