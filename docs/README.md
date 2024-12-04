@@ -1,5 +1,5 @@
-![example workflow](https://github.com/VladimirHeizenberg/geometric_lib/actions/workflows/linting.yml/badge.svg)
-![example workflow](https://github.com/VladimirHeizenberg/geometric_lib/actions/workflows/test.yml/badge.svg)
+[![example workflow](https://github.com/VladimirHeizenberg/geometric_lib/actions/workflows/linting.yml/badge.svg)](https://github.com/VladimirHeizenberg/geometric_lib/actions)
+[![example workflow](https://github.com/VladimirHeizenberg/geometric_lib/actions/workflows/test.yml/badge.svg)](https://github.com/VladimirHeizenberg/geometric_lib/actions)
 # Общая информация
 - Библиотека, позволяющая проводить геометрические расчёты.
 - Содержит файлы для расчётов:
