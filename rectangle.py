@@ -9,6 +9,12 @@ def area(a, b):
     Возвращаемое значение:
         S(double): площадь прямоугольника со сторонами a и b
     """
+    if a < 0:
+        raise ValueError('Size of reactangle cannot be negative!')
+
+    if b < 0:
+        raise ValueError('Size of reactangle cannot be negative!')
+
     return a * b
 
 
@@ -23,4 +29,16 @@ def perimeter(a, b):
     Возвращаемое значение:
         P(double): периметр прямоугольника со сторонами a и b
     """
+    if a < 0:
+        raise ValueError('Size of reactangle cannot be negative!')
+
+    if b < 0:
+        raise ValueError('Size of reactangle cannot be negative!')
+
+    if a == 0:
+        return b
+
+    if b == 0:
+        return a
+
     return 2 * (a + b)

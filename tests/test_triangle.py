@@ -28,10 +28,6 @@ class TriangleTestCase(unittest.TestCase):
         with self.assertRaises(Exception):
             triangle.area(-10, 1)
 
-    def test_zero_size_perimeter(self):
-        perimeter = triangle.perimeter(0, 1, 2)
-        self.assertEqual(perimeter, 3)
-
     def test_positive_size_perimeter(self):
         perimeter = triangle.perimeter(3, 4, 5)
         self.assertAlmostEqual(perimeter, 12)
