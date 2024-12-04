@@ -2,6 +2,7 @@ import unittest
 
 import rectangle
 
+
 class RectangleTestCase(unittest.TestCase):
     def test_zero_sizes_ares(self):
         area = rectangle.area(0, 0)
@@ -10,7 +11,7 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(area, 0)
         area = rectangle.area(10, 0)
         self.assertEqual(area, 0)
-    
+
     def test_positive_sizes_area(self):
         area = rectangle.area(1, 1)
         self.assertEqual(area, 1)
@@ -24,7 +25,7 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(area, 521889)
         area = rectangle.area(566.2, 12.6)
         self.assertAlmostEqual(area, 7134.12)
-    
+
     def test_negative_sizes_area(self):
         with self.assertRaises(Exception):
             rectangle.area(-10, 5)
@@ -42,7 +43,7 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(perimeter, 10)
         perimeter = rectangle.perimeter(10, 0)
         self.assertEqual(perimeter, 10)
-    
+
     def test_positive_sizes_perimeter(self):
         perimeter = rectangle.perimeter(1, 1)
         self.assertEqual(perimeter, 4)
@@ -55,8 +56,8 @@ class RectangleTestCase(unittest.TestCase):
         perimeter = rectangle.perimeter(123, 4243)
         self.assertEqual(perimeter, 8732)
         perimeter = rectangle.perimeter(566.2, 12.6)
-        self.assertAlmostEqual(perimeter, 1157,6)
-    
+        self.assertAlmostEqual(perimeter, 1157.6)
+
     def test_negative_sizes_perimeter(self):
         with self.assertRaises(Exception):
             rectangle.perimeter(-10, 5)
