@@ -9,7 +9,7 @@ def area(a):
         S(double): площадь квадрата со стороной a
     """
     if a < 0:
-        raise ValueError('Size of square cannot be negative!')
+        raise ValueError("Size of square cannot be negative!")
 
     return a * a
 
@@ -25,6 +25,6 @@ def perimeter(a):
         S(double): периметр квадрата со стороной a
     """
     if a < 0:
-        raise ValueError('Size of square cannot be negative!')
+        raise ValueError("Size of square cannot be negative!")
 
     return 4 * a

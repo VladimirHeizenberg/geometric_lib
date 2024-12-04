@@ -11,10 +11,10 @@ def area(a, h):
         S(double): площадь треугольника
     """
     if a < 0:
-        raise ValueError('Size of triangle cannot be negative!')
+        raise ValueError("Size of triangle cannot be negative!")
 
     if h < 0:
-        raise ValueError('Height of triangle cannot be negative!')
+        raise ValueError("Height of triangle cannot be negative!")
 
     return a * h / 2
 
@@ -32,9 +32,9 @@ def perimeter(a, b, c):
         P(double): периметр треугольника
     """
     if a < 0 or b < 0 or c < 0:
-        raise ValueError('Size of triangle cannot be negative!')
+        raise ValueError("Size of triangle cannot be negative!")
 
     if a + b < c or b + c < a or a + c < b:
-        raise ValueError('Triangle enaquality is not kept')
+        raise ValueError("Triangle enaquality is not kept")
 
     return a + b + c

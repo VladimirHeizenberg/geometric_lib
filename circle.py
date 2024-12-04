@@ -12,7 +12,7 @@ def area(r):
         S(double): площадь круга радиусом r
     """
     if r < 0:
-        raise ValueError('R cannot be negative!')
+        raise ValueError("R cannot be negative!")
 
     return math.pi * r * r
 
@@ -27,6 +27,6 @@ def perimeter(r):
     Возвращаемое значение: длина окружности радиуса r
     """
     if r < 0:
-        raise ValueError('R cannot be negative!')
+        raise ValueError("R cannot be negative!")
 
     return 2 * math.pi * r
