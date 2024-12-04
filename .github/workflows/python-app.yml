@@ -27,7 +27,7 @@ jobs:
           python-version: '3.11'
       
       - name: Set requirements
-        run: pip install requirements/test.txt
+        run: pip install -r requirements/test.txt
       
       - name: linting
         run: |
